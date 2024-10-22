@@ -56,7 +56,7 @@ if(Serial1.available() > 0){ // Checks whether data is coming from the serial po
  digitalWrite(LEDPIN, HIGH);
  int val = analogRead(soilPin); //soil pin
   
-  Serial1.print("Peace Lily: ");
+  Serial1.print("Aloe Vera: ");
   Serial1.println(val);
   digitalWrite(ledPin, HIGH);
   if (val>600){
