@@ -1,0 +1,1 @@
+This project used MQTT with Raspberry Pi and Teensy to measure the soil moisture of plants to determine when they required watering. If they required watering the red LED was switched on. If they did not, the green LED was switched on.
